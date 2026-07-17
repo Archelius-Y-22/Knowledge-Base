@@ -1,0 +1,120 @@
+01-computer-vision-introduction.md
+
+What computer vision is
+Why images are challenging for computers to interpret
+Real-world applications of computer vision
+How this repository builds on deep-learning-lab
+
+
+02-digital-image-fundamentals.md
+
+How images are represented digitally
+Pixels and color channels
+Image resolution concepts
+Grayscale vs color representations
+
+
+03-image-preprocessing.md
+
+Resizing and normalization concepts
+Data augmentation concepts
+Why preprocessing affects model performance
+Common preprocessing pipelines
+
+
+04-classical-image-processing-techniques.md
+
+Edge detection concepts
+Filtering and convolution before deep learning
+Thresholding concepts
+Why classical techniques still matter as a foundation
+
+
+05-convolutional-neural-networks-revisited.md
+
+Revisiting CNN fundamentals from deep-learning-lab
+Why convolution suits spatial data
+Feature maps and filters in the context of vision
+Building intuition for what CNNs "see"
+
+
+06-image-classification.md
+
+What image classification predicts
+Building a basic image classifier
+Evaluating classification performance on image data
+Common failure modes in classification
+
+
+07-transfer-learning-for-vision.md
+
+Using pretrained vision models
+Fine-tuning a pretrained model for a new task
+Why transfer learning is especially effective in vision
+Choosing a pretrained backbone
+
+
+08-object-detection-fundamentals.md
+
+What object detection does beyond classification
+Bounding boxes concepts
+Difference between detection and classification tasks
+Common object detection use cases
+
+
+09-object-detection-architectures.md
+
+YOLO concepts at a high level
+Region-based detection concepts
+Speed vs accuracy tradeoffs in detection models
+Choosing an architecture for a given use case
+
+
+10-image-segmentation.md
+
+What image segmentation does
+Semantic segmentation vs instance segmentation
+Use cases requiring pixel-level understanding
+Segmentation model concepts at a high level
+
+
+11-face-detection-and-recognition.md
+
+Difference between detection and recognition
+How face recognition systems work at a conceptual level
+Privacy and ethical considerations
+Common limitations and failure cases
+
+
+12-video-analysis-fundamentals.md
+
+Difference between image and video analysis
+Frame-based processing concepts
+Temporal consistency challenges
+Common video analysis use cases
+
+
+13-computer-vision-in-security-applications.md
+
+Surveillance and monitoring use cases
+Anomaly detection through vision
+Limitations and risks of vision-based security systems
+Ethical considerations in deploying vision systems
+
+
+14-evaluating-vision-models.md
+
+Accuracy metrics specific to vision tasks
+Intersection over union for detection tasks
+Common evaluation pitfalls
+Why visual inspection of results still matters
+
+
+15-computer-vision-projects.md
+
+Projects:
+Build an image classifier for a custom dataset
+Fine-tune a pretrained model for a specific vision task
+Build a basic object detection demo
+Experiment with image segmentation on sample images
+Document model performance and limitations
