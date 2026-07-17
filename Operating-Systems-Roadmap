@@ -1,0 +1,210 @@
+01-operating-system-introduction.md
+What an operating system is and why it exists
+The role of an operating system between hardware and applications
+Evolution of operating systems from early computers to modern systems
+Different categories of operating systems:
+Desktop systems
+Server systems
+Mobile systems
+Embedded systems
+Real-time systems
+Understanding the responsibilities of an operating system:
+Resource management
+Security
+Hardware abstraction
+Application execution
+Comparison between Linux, Windows, macOS, and other operating systems
+
+02-computer-architecture-basics.md
+Understanding the fundamental components of a computer system
+CPU architecture and instruction execution
+The relationship between hardware and software
+Understanding:
+CPU cores
+Registers
+Cache memory
+Main memory
+Storage devices
+How programs are converted into instructions executed by the processor
+Understanding hardware limitations and their impact on operating systems
+
+03-kernel-and-user-space.md
+Understanding the purpose of the kernel
+Difference between kernel space and user space
+Why operating systems separate privileged and unprivileged operations
+Types of kernels:
+Monolithic kernels
+Microkernels
+Hybrid kernels
+Understanding Linux kernel architecture
+How applications interact with the kernel
+Kernel responsibilities:
+Memory management
+Process management
+Hardware communication
+Security enforcement
+
+04-system-calls.md
+Understanding how applications request operating system services
+The role of system calls as the bridge between programs and the kernel
+Categories of system calls:
+Process management
+File operations
+Memory management
+Network communication
+Hardware access
+Understanding why system calls are important for security
+How attackers abuse system-level functionality
+
+05-processes.md
+Understanding what a process is
+Difference between programs and processes
+Process lifecycle:
+Creation
+Execution
+Suspension
+Termination
+Process states
+Parent and child process relationships
+Process isolation
+Resource ownership by processes
+Understanding how operating systems manage running applications
+
+06-threads-and-concurrency.md
+Understanding threads and why they exist
+Difference between processes and threads
+Multi-threading concepts
+Parallel execution
+Race conditions
+Synchronization problems
+Locks and coordination mechanisms
+Challenges of concurrent programming
+
+07-cpu-scheduling.md
+How operating systems decide which processes run
+CPU scheduling goals:
+Performance
+Fairness
+Responsiveness
+Scheduling algorithms:
+First Come First Served
+Round Robin
+Priority Scheduling
+Multilevel Scheduling
+Understanding context switching
+Performance impact of scheduling decisions
+
+08-memory-management.md
+Understanding how operating systems manage memory
+Physical memory organization
+Memory allocation concepts
+Stack and heap memory
+Memory protection
+Memory sharing between processes
+Understanding memory-related failures
+
+09-virtual-memory.md
+Why virtual memory exists
+Relationship between virtual and physical memory
+Memory paging concepts
+Page tables
+Address translation
+Memory swapping
+Performance challenges:
+Page faults
+Thrashing
+
+10-file-systems.md
+Understanding how operating systems store and organize data
+Filesystem concepts:
+Files
+Directories
+Metadata
+Permissions
+Filesystem architecture
+Journaling systems
+Different filesystem designs
+Reliability and performance considerations
+
+11-storage-management.md
+How operating systems communicate with storage devices
+Storage abstraction layers
+Disk organization
+Partitioning concepts
+Storage performance factors
+Reliability and data protection concepts
+Storage security principles
+
+12-device-management.md
+How operating systems communicate with hardware
+Device drivers
+Hardware abstraction
+Device discovery
+Kernel modules
+Managing hardware resources
+Security risks related to hardware access
+
+13-input-and-output-systems.md
+Understanding how operating systems handle input and output
+I/O devices
+Interrupts
+Buffers
+Caching
+I/O scheduling
+Performance optimization
+
+14-inter-process-communication.md
+Understanding how processes communicate
+Communication methods:
+Pipes
+Signals
+Shared memory
+Message queues
+Sockets
+Synchronization between processes
+Security considerations of communication channels
+
+15-security-and-protection.md
+Operating system security principles
+Privilege separation
+Access control mechanisms
+Authentication systems
+Isolation techniques
+Secure resource management
+Common operating system vulnerabilities
+Security design principles
+
+16-virtualization.md
+Understanding virtualization concepts
+Virtual machines and hypervisors
+Hardware virtualization
+Resource allocation
+Virtual machine security
+Importance of virtualization in cloud computing
+
+17-containers-and-isolation.md
+Understanding container technology
+Difference between containers and virtual machines
+Linux namespaces
+Control groups
+Application isolation
+Container security concepts
+
+18-operating-system-internals.md
+Understanding low-level operating system behavior
+Kernel architecture
+Boot process
+Memory internals
+Process internals
+Hardware communication
+Relationship between operating systems and cybersecurity
+
+19-os-projects.md
+Projects:
+
+Build a simple operating system concept simulator
+Create a process management visualization tool
+Study and document Linux kernel components
+Build a basic shell
+Experiment with virtualization
+Create system monitoring tools
