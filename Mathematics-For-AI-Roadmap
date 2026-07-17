@@ -1,0 +1,140 @@
+01-mathematics-for-ai-introduction.md
+
+Why mathematics matters for artificial intelligence
+The role of math in how models learn
+Overview of the branches needed: linear algebra, calculus, probability, statistics
+How theory connects to practical model building
+Setting expectations for depth needed vs pure math theory
+
+
+02-linear-algebra-vectors.md
+
+What a vector is
+Vector notation
+Vector addition and scalar multiplication
+Vector magnitude and direction
+Why data is represented as vectors in AI
+
+
+03-linear-algebra-matrices.md
+
+What a matrix is
+Matrix notation
+Matrix addition and multiplication
+Identity and zero matrices
+Why matrices represent transformations and datasets
+
+
+04-matrix-operations-for-ai.md
+
+Matrix multiplication in the context of neural networks
+Transpose operations
+Element-wise operations
+Broadcasting concepts
+Why matrix operations are the core computation of deep learning
+
+
+05-eigenvalues-and-eigenvectors.md
+
+What eigenvalues and eigenvectors represent
+Why they matter for dimensionality reduction
+Connection to principal component analysis
+Intuition without heavy proof-based derivation
+
+
+06-calculus-functions-and-limits.md
+
+What a function represents mathematically
+Continuity concepts
+Limits and why they matter
+Foundations needed before derivatives
+
+
+07-derivatives-and-rates-of-change.md
+
+What a derivative measures
+Rules for computing derivatives
+Derivatives of common functions
+Why derivatives are central to learning algorithms
+
+
+08-partial-derivatives-and-gradients.md
+
+What a partial derivative is
+Multivariable functions
+What a gradient represents
+Why gradients point in the direction of steepest change
+
+
+09-the-chain-rule.md
+
+What the chain rule is
+Why it matters for neural networks
+Connection to backpropagation
+Composing functions in layered systems
+
+
+10-optimization-fundamentals.md
+
+What optimization means in machine learning
+Minimizing a loss function
+Local minima and global minima
+Convex vs non-convex problems
+
+
+11-gradient-descent.md
+
+What gradient descent does
+Learning rate concepts
+Step-by-step intuition of the algorithm
+Variants of gradient descent at a conceptual level
+
+
+12-probability-fundamentals.md
+
+What probability represents
+Random variables
+Probability distributions
+Independent and dependent events
+
+
+13-common-probability-distributions.md
+
+Uniform distribution
+Normal distribution
+Bernoulli distribution
+Why certain distributions appear repeatedly in AI
+
+
+14-bayes-theorem.md
+
+What conditional probability is
+Bayes theorem explained
+Why Bayesian thinking matters in machine learning
+Practical intuition through examples
+
+
+15-statistics-fundamentals.md
+
+Mean, median, and mode
+Variance and standard deviation
+Correlation concepts
+Why statistics describe and summarize data
+
+
+16-sampling-and-distributions-in-practice.md
+
+What sampling means
+Population vs sample
+Why sampling matters for training data
+Bias introduced by poor sampling
+
+
+17-mathematics-for-ai-projects.md
+
+Projects:
+Implement vector and matrix operations from scratch
+Visualize gradient descent on a simple function
+Calculate derivatives of common functions by hand and verify with code
+Build a small probability simulation
+Summarize a dataset using statistical measures
