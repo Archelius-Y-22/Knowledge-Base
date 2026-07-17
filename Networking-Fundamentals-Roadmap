@@ -1,0 +1,160 @@
+01-networking-introduction.md
+
+What computer networks are
+How computers communicate
+Internet architecture
+Types of networks
+Local networks and global networks
+Importance of networking in cybersecurity
+
+02-osi-and-tcp-ip-models.md
+
+OSI model structure
+TCP/IP model structure
+Purpose of each layer
+Data movement between layers
+Encapsulation and decapsulation concepts
+
+03-ip-addressing.md
+
+IPv4 addressing
+IPv6 addressing
+Public and private addresses
+Address allocation
+Network identification concepts
+
+04-subnetting.md
+
+Network segmentation
+Subnet masks
+Network ranges
+Address planning
+Efficient network organization
+
+05-network-devices.md
+
+Routers
+Switches
+Firewalls
+Wireless access points
+Network infrastructure components
+Hardware roles in communication
+
+06-ethernet-and-switching.md
+
+MAC addresses
+Ethernet communication
+Frames
+Switching concepts
+Local network communication
+
+07-routing.md
+
+Packet forwarding
+Routing tables
+Static routing
+Dynamic routing concepts
+How routers make decisions
+
+08-tcp-and-udp.md
+
+Transport layer concepts
+TCP communication
+UDP communication
+Reliability mechanisms
+Connection management
+
+09-common-network-protocols.md
+
+SSH
+FTP
+SMTP
+IMAP
+DNS
+HTTP
+HTTPS
+Protocol purposes and security concerns
+
+10-dns.md
+
+Domain resolution
+DNS hierarchy
+DNS records
+Name resolution process
+DNS security concerns
+
+11-dhcp.md
+
+Automatic IP assignment
+DHCP process
+Network configuration
+Client-server communication
+
+12-http-and-https.md
+
+Web communication
+HTTP structure
+HTTPS security
+Client-server architecture
+Web protocol security
+
+13-tls-and-encryption.md
+
+Secure communication concepts
+Encryption during transmission
+Certificates
+Trust chains
+Secure connections
+
+14-network-security.md
+
+Network attacks
+Network defense
+Secure network design
+Monitoring concepts
+Threat prevention
+
+15-firewalls.md
+
+Firewall concepts
+Packet filtering
+Stateful inspection
+Network access control
+Firewall security principles
+
+16-vpn-and-tunneling.md
+
+VPN concepts
+Secure remote access
+Tunneling principles
+Encrypted communication
+
+17-network-analysis.md
+
+Network traffic analysis
+Packet inspection
+Network visibility
+Detecting suspicious activity
+
+18-wireless-networking.md
+
+Wireless communication
+Wi-Fi technology
+Wireless security
+Encryption standards
+
+19-network-troubleshooting.md
+
+Network problem-solving methodology
+Connectivity issues
+Performance problems
+Diagnosing failures
+
+20-networking-projects.md
+Projects:
+
+Build a home network lab
+Document network architecture
+Analyze network traffic
+Create network security documentation
+Design a secure small network
