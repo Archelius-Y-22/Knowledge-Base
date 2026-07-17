@@ -1,0 +1,152 @@
+01-devops-introduction.md
+
+What DevOps is as a culture and practice
+Why DevOps emerged from the divide between development and operations
+Core DevOps principles
+How this repository connects Linux, automation, and cloud skills together
+
+
+02-version-control-fundamentals.md
+
+Why version control is foundational to DevOps
+Git concepts revisited in a team context
+Branching strategies
+Why history and traceability matter for infrastructure changes
+
+
+03-collaborative-git-workflows.md
+
+Pull requests and code review concepts
+Merge vs rebase concepts
+Resolving conflicts in collaborative environments
+Branch protection and workflow discipline
+
+
+04-linux-administration-for-devops.md
+
+Why Linux skills underpin most DevOps work
+Server management in a DevOps context
+Connection back to linux-journey and linux-hardening
+Applying administration skills to fleets of servers rather than single machines
+
+
+05-infrastructure-as-code-concepts.md
+
+What infrastructure as code means
+Why manual infrastructure changes don't scale
+Declarative vs imperative approaches
+Benefits of version-controlled infrastructure
+
+
+06-configuration-management.md
+
+What configuration management solves
+Idempotency concepts
+Managing consistency across many servers
+Common configuration management tool categories
+
+
+07-continuous-integration-fundamentals.md
+
+What continuous integration means
+Why frequent integration reduces risk
+Automated testing as part of CI
+Building confidence through automated pipelines
+
+
+08-continuous-delivery-and-deployment.md
+
+Difference between continuous delivery and continuous deployment
+Automating the release process
+Deployment strategies at a conceptual level
+Why automation reduces human error in releases
+
+
+09-building-ci-cd-pipelines.md
+
+Pipeline stages explained
+Build, test, and deploy stages
+Pipeline configuration concepts
+Common pipeline failure points
+
+
+10-docker-fundamentals.md
+
+What containerization solves
+Difference between containers and virtual machines
+Images and containers explained
+Why Docker became the standard containerization tool
+
+
+11-writing-dockerfiles.md
+
+What a Dockerfile defines
+Building images from a Dockerfile
+Layering concepts
+Best practices for efficient and secure images
+
+
+12-docker-compose-and-multi-container-apps.md
+
+Why applications often need multiple containers
+Defining multi-container setups
+Networking between containers
+Managing multi-container environments
+
+
+13-container-registries.md
+
+What a container registry stores
+Pushing and pulling images
+Public vs private registries
+Image versioning concepts
+
+
+14-kubernetes-fundamentals.md
+
+Why orchestration is needed beyond Docker alone
+Core Kubernetes concepts: pods, nodes, clusters
+Why Kubernetes became the standard orchestration platform
+When Kubernetes complexity is justified
+
+
+15-kubernetes-core-objects.md
+
+Pods explained
+Deployments explained
+Services explained
+ConfigMaps and Secrets concepts
+
+
+16-monitoring-and-observability.md
+
+Difference between monitoring and observability
+Metrics, logs, and traces as pillars of observability
+Why visibility into systems matters at scale
+Alerting concepts
+
+
+17-infrastructure-automation-in-practice.md
+
+Automating server provisioning
+Automating application deployment
+Reducing manual intervention in operations
+Building repeatable, reliable processes
+
+
+18-devops-security-practices.md
+
+Why security must be integrated into DevOps, not bolted on afterward
+Secrets management concepts
+Scanning for vulnerabilities in pipelines
+Introduction to the DevSecOps mindset
+
+
+19-devops-projects.md
+
+Projects:
+Build a CI/CD pipeline for a personal project
+Containerize an application with Docker
+Deploy a multi-container application using Docker Compose
+Set up basic monitoring for a running application
+Document a complete DevOps workflow from code commit to deployment
