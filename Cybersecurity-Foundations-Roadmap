@@ -1,0 +1,173 @@
+01-cybersecurity-introduction.md
+
+What cybersecurity is and why it exists as a discipline
+The relationship between information technology and security
+Understanding the difference between safety, security, and privacy
+The evolution of cybersecurity from early computing to modern digital infrastructure
+Categories of cybersecurity work, including offensive security, defensive security, governance, and research
+Understanding who threat actors are and why systems are attacked
+
+
+02-cia-triad.md
+
+Confidentiality, integrity, and availability as the foundation of security thinking
+Understanding what confidentiality protects against and how it is enforced
+Understanding what integrity means for data and systems
+Understanding why availability matters and how it can be disrupted
+How the three principles sometimes conflict with one another
+Applying the CIA triad to real systems and decisions
+
+
+03-threat-landscape.md
+
+Understanding what a threat, vulnerability, and risk actually mean
+Categories of threat actors, including individuals, organized groups, and nation-states
+Motivations behind attacks, including financial gain, espionage, activism, and disruption
+Common attack categories at a conceptual level
+Understanding how the threat landscape evolves over time
+Why understanding attackers is essential to building defenses
+
+
+04-risk-management.md
+
+Understanding risk as a combination of likelihood and impact
+The risk management process, including identification, assessment, and treatment
+Concepts of risk acceptance, mitigation, transfer, and avoidance
+Understanding asset value and why not everything needs the same level of protection
+Introduction to risk assessment thinking used by security teams
+
+
+05-security-policies-and-governance.md
+
+Understanding why organizations need written security policies
+The relationship between governance, risk, and compliance
+Roles and responsibilities within a security program
+Understanding acceptable use, access, and data handling policies at a conceptual level
+Why policy enforcement matters as much as policy creation
+
+
+06-authentication-concepts.md
+
+Understanding what authentication means and why it is the first line of defense
+Types of authentication factors: something you know, something you have, something you are
+Understanding multi-factor authentication and why it significantly improves security
+Common authentication weaknesses and why passwords alone are insufficient
+Concepts behind session management and staying authenticated safely
+
+
+07-authorization-and-access-control.md
+
+Difference between authentication and authorization
+Understanding access control models conceptually, including role-based and attribute-based approaches
+The principle of least privilege and why it limits damage from compromise
+Understanding privilege escalation as a concept
+Why proper authorization design prevents unauthorized actions even after a successful login
+
+
+08-cryptography-fundamentals.md
+
+Why cryptography is central to modern security
+Understanding the difference between symmetric and asymmetric encryption at a conceptual level
+Use cases for encryption in transit versus encryption at rest
+Understanding what makes an encryption scheme strong or weak
+Common misconceptions about encryption and security guarantees
+
+
+09-hashing-and-integrity.md
+
+Understanding what hashing is and how it differs from encryption
+Why hashing is used for passwords, file integrity, and data verification
+Understanding properties of a secure hash function
+Common weaknesses in outdated hashing approaches
+The role of salting in protecting stored credentials
+
+
+10-public-key-infrastructure.md
+
+Understanding the purpose of public key infrastructure
+Certificates and what they establish trust in
+Certificate authorities and the chain of trust
+How PKI enables secure communication on the internet
+Common failures and risks within trust-based systems
+
+
+11-network-security-principles.md
+
+Understanding how network design affects security posture
+Concepts of network segmentation and isolation
+Perimeter security thinking versus modern zero-trust thinking
+Understanding common network-based attack categories at a conceptual level
+The role of monitoring in detecting network-based threats
+
+
+12-malware-fundamentals.md
+
+Understanding what malware is and its general categories
+Concepts behind viruses, worms, trojans, ransomware, and spyware
+How malware typically spreads and persists on systems
+Understanding the difference between detection and prevention
+Why malware analysis is a distinct specialization within security
+
+
+13-endpoint-security.md
+
+Understanding what an endpoint is and why it is a common attack target
+Concepts behind antivirus and endpoint detection tools
+Patch management and why outdated software creates risk
+Device hardening principles
+Balancing usability and security on end-user devices
+
+
+14-social-engineering.md
+
+Understanding why humans are often the weakest link in security
+Common social engineering techniques at a conceptual level
+Phishing, pretexting, and impersonation as categories of manipulation
+Why awareness and training are core defensive measures
+Understanding the psychology behind why social engineering works
+
+
+15-incident-response-fundamentals.md
+
+Understanding what a security incident is
+The incident response lifecycle: preparation, detection, containment, eradication, recovery, and lessons learned
+Why fast and structured response reduces damage
+Understanding the role of logging and evidence during incidents
+Introduction to post-incident reporting and improvement processes
+
+
+16-security-frameworks-and-compliance.md
+
+Why organizations adopt structured security frameworks
+Conceptual overview of widely used frameworks and standards
+Understanding compliance as a baseline, not a complete security strategy
+The relationship between audits, regulations, and organizational accountability
+
+
+17-vulnerability-management.md
+
+Understanding what a vulnerability is in a system or application
+The vulnerability management lifecycle: discovery, assessment, prioritization, remediation
+Concepts behind vulnerability scanning and assessment
+Understanding severity scoring and why not all vulnerabilities are equally urgent
+The relationship between vulnerability management and patching practices
+
+
+18-security-operations.md
+
+Understanding what a security operations function does day to day
+Concepts behind monitoring, alerting, and triage
+The role of logs, dashboards, and detection rules
+Understanding the difference between proactive and reactive security work
+How security operations connects to incident response
+
+
+19-cybersecurity-projects.md
+
+Projects:
+Document a personal threat model for your own systems
+Build a simple risk assessment for a home network or lab environment
+Create a security policy template
+Map out an incident response plan for a small system
+Research and summarize a real-world breach using only public information
+Design an access control model for a sample application
