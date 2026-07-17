@@ -1,0 +1,120 @@
+01-ai-engineering-introduction.md
+
+What AI engineering means as a discipline
+Difference between AI research, data science, and AI engineering
+Why turning a model into a product requires different skills
+How this repository builds on llm-engineering and machine-learning-foundations
+
+
+02-designing-ai-powered-applications.md
+
+Identifying the right problem for an AI solution
+When to use a model vs traditional logic
+Designing around model limitations
+User experience considerations for AI features
+
+
+03-apis-and-backend-fundamentals.md
+
+What an API is in the context of application development
+REST API design concepts
+Request and response structure
+Why backend design matters for AI applications
+
+
+04-building-apis-with-fastapi.md
+
+Why FastAPI is commonly used for AI services
+Structuring an API project
+Handling requests and responses
+Connecting an API endpoint to a model
+
+
+05-integrating-ai-models-into-applications.md
+
+Loading and serving a model within an application
+Synchronous vs asynchronous inference concepts
+Handling model inputs and outputs safely
+Structuring code for maintainability
+
+
+06-databases-for-ai-applications.md
+
+Storing structured application data
+Storing conversation or session history
+Relational vs non-relational storage concepts
+Connecting a database to an AI backend
+
+
+07-caching-and-performance.md
+
+Why AI inference can be slow or costly
+Caching strategies for repeated requests
+Reducing redundant model calls
+Balancing performance and freshness of results
+
+
+08-authentication-and-api-security.md
+
+Why AI APIs need protection
+API key concepts
+Rate limiting concepts
+Preventing abuse of AI endpoints
+
+
+09-containerizing-ai-applications.md
+
+Why containerization matters for deployment
+Docker fundamentals in the context of AI apps
+Packaging a model and its dependencies
+Reproducibility concepts
+
+
+10-deploying-ai-applications.md
+
+Deployment environment concepts
+Cloud vs self-hosted deployment
+Scaling considerations for AI workloads
+Environment configuration and secrets management
+
+
+11-monitoring-ai-applications.md
+
+Why monitoring matters after deployment
+Logging model inputs and outputs responsibly
+Tracking performance and errors
+Detecting model or data drift at a conceptual level
+
+
+12-handling-model-failures-gracefully.md
+
+Why AI outputs can be unpredictable
+Fallback strategies when a model fails or underperforms
+Input validation before reaching the model
+Designing for graceful degradation
+
+
+13-cost-management-for-ai-systems.md
+
+Understanding inference costs at scale
+Choosing model size based on application needs
+Batching requests where appropriate
+Tradeoffs between cost, latency, and quality
+
+
+14-versioning-ai-systems.md
+
+Versioning models
+Versioning prompts
+Why reproducibility matters in AI systems
+Managing changes without breaking production behavior
+
+
+15-ai-engineering-projects.md
+
+Projects:
+Build and deploy a simple AI-powered API
+Containerize an AI application for portability
+Add authentication and rate limiting to an AI service
+Implement logging and basic monitoring for an AI endpoint
+Document the full architecture of a deployed AI application
