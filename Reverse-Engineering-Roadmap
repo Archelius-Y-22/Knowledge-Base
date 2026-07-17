@@ -1,0 +1,160 @@
+01-reverse-engineering-introduction.md
+
+What reverse engineering is
+Why reverse engineering matters in security
+Legal and ethical considerations
+Reverse engineering in malware analysis vs software analysis
+Skills required to get started
+
+
+02-computer-architecture-for-re.md
+
+CPU registers
+Instruction execution
+Memory addressing
+Endianness
+Why architecture knowledge is required before reading assembly
+
+
+03-number-systems-and-data-representation.md
+
+Binary representation
+Hexadecimal representation
+Signed and unsigned values
+How data is represented in memory
+Reading raw bytes meaningfully
+
+
+04-assembly-language-fundamentals.md
+
+What assembly language is
+Instruction sets
+Registers and their roles
+Basic instructions
+Reading simple assembly routines
+
+
+05-the-stack-and-function-calls.md
+
+What the stack is
+Stack frames
+Function calling conventions
+Push and pop concepts
+Why the stack matters for exploitation later
+
+
+06-executable-file-formats.md
+
+What an executable file contains
+ELF format concepts
+PE format concepts
+Sections and headers
+How the OS loads and runs a binary
+
+
+07-static-analysis-fundamentals.md
+
+What static analysis means
+Reading a binary without running it
+Identifying strings and symbols
+Recognizing functions and structure
+Limitations of static analysis
+
+
+08-dynamic-analysis-fundamentals.md
+
+What dynamic analysis means
+Running a binary in a controlled environment
+Observing runtime behavior
+Combining static and dynamic approaches
+
+
+09-debuggers.md
+
+What a debugger does
+Breakpoints
+Stepping through execution
+Inspecting registers and memory
+Debugging as an investigative process
+
+
+10-disassemblers-and-decompilers.md
+
+Difference between disassembly and decompilation
+Reading disassembled code
+Reading decompiled pseudocode
+Trusting and verifying decompiler output
+
+
+11-identifying-program-logic.md
+
+Recognizing conditionals in assembly
+Recognizing loops in assembly
+Recognizing function boundaries
+Reconstructing high-level logic from low-level code
+
+
+12-strings-and-symbols-analysis.md
+
+Extracting readable strings
+Identifying meaningful symbols
+Using strings as investigative clues
+Symbol stripping concepts
+
+
+13-analyzing-compiled-languages.md
+
+Differences between compiled and interpreted binaries
+Compiler optimization effects on readability
+Common patterns across compilers
+Language-specific artifacts in binaries
+
+
+14-packed-and-obfuscated-binaries.md
+
+What packing means
+Why malware authors pack binaries
+Recognizing signs of obfuscation
+Basic unpacking concepts
+
+
+15-memory-corruption-concepts.md
+
+What memory corruption means
+Buffer overflow concepts
+Why unsafe memory handling causes vulnerabilities
+Relationship between reverse engineering and exploitation
+
+
+16-vulnerability-discovery-through-re.md
+
+Finding logic flaws through analysis
+Identifying unsafe function usage
+Recognizing patterns that lead to vulnerabilities
+Responsible disclosure concepts
+
+
+17-malware-analysis-fundamentals.md
+
+Safe analysis environment concepts
+Behavioral analysis of malware
+Identifying malicious functionality
+Analysis without executing on live systems
+
+
+18-anti-analysis-techniques.md
+
+Anti-debugging concepts
+Anti-VM concepts
+Detecting analysis environments
+How analysts work around these defenses
+
+
+19-reverse-engineering-projects.md
+
+Projects:
+Analyze simple compiled programs you write yourself
+Practice reading disassembly of small C programs
+Set up an isolated lab environment for analysis
+Document findings from beginner-friendly reverse engineering challenges
+Build a personal reference sheet of assembly instructions
