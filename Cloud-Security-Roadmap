@@ -1,0 +1,144 @@
+01-cloud-security-introduction.md
+
+What cloud computing is
+Why cloud environments introduce different security considerations than on-premise systems
+The shared responsibility model
+How this repository builds on cybersecurity-foundations and devops-journey
+
+
+02-cloud-service-models.md
+
+Infrastructure as a Service concepts
+Platform as a Service concepts
+Software as a Service concepts
+How security responsibility shifts across each model
+
+
+03-cloud-deployment-models.md
+
+Public cloud concepts
+Private cloud concepts
+Hybrid cloud concepts
+Security implications of each deployment model
+
+
+04-identity-and-access-management.md
+
+What IAM controls in a cloud environment
+Users, roles, and policies
+Principle of least privilege applied to cloud permissions
+Common IAM misconfigurations
+
+
+05-cloud-authentication-and-authorization.md
+
+Federated identity concepts
+Single sign-on in cloud environments
+Multi-factor authentication in the cloud
+Service-to-service authentication concepts
+
+
+06-cloud-networking-fundamentals.md
+
+Virtual networks in the cloud
+Subnets and network segmentation in cloud environments
+Security groups and network access control concepts
+Why cloud networking differs from traditional on-premise networking
+
+
+07-cloud-storage-security.md
+
+Object storage concepts
+Common storage misconfigurations
+Public exposure risks
+Encryption at rest concepts
+
+
+08-data-protection-in-the-cloud.md
+
+Encryption in transit and at rest revisited in a cloud context
+Key management concepts
+Data residency and sovereignty considerations
+Backup and recovery in cloud environments
+
+
+09-container-security-in-the-cloud.md
+
+Security risks specific to containerized workloads
+Image scanning concepts
+Runtime security concepts
+Isolation boundaries between containers
+
+
+10-kubernetes-security.md
+
+Why Kubernetes clusters need dedicated security attention
+Role-based access control in Kubernetes
+Network policies within clusters
+Common Kubernetes misconfigurations
+
+
+11-serverless-security.md
+
+What serverless computing is
+Why traditional security models don't fully apply to serverless
+Function-level permission concepts
+Common serverless security risks
+
+
+12-cloud-logging-and-monitoring.md
+
+Why centralized logging matters in distributed cloud environments
+Cloud-native monitoring concepts
+Detecting suspicious activity across cloud resources
+Log retention and integrity considerations
+
+
+13-cloud-compliance-and-governance.md
+
+Why compliance requirements extend into cloud environments
+Common compliance frameworks relevant to cloud
+Governance policies for cloud resource usage
+Auditing cloud environments
+
+
+14-cloud-incident-response.md
+
+How incident response differs in cloud environments
+Evidence collection challenges in the cloud
+Isolating compromised cloud resources
+Coordination with cloud providers during incidents
+
+
+15-common-cloud-misconfigurations.md
+
+Publicly exposed storage buckets
+Overly permissive IAM policies
+Unencrypted data stores
+Unrestricted network access rules
+Why misconfiguration is the leading cause of cloud breaches
+
+
+16-cloud-security-posture-management.md
+
+What continuous security assessment means in the cloud
+Automated configuration checking concepts
+Why manual review doesn't scale in dynamic cloud environments
+Maintaining security posture over time
+
+
+17-multi-cloud-and-hybrid-security-considerations.md
+
+Challenges of securing multiple cloud providers
+Consistency of policy across environments
+Tooling considerations for multi-cloud visibility
+
+
+18-cloud-security-projects.md
+
+Projects:
+Configure IAM policies following least privilege for a sample environment
+Audit a cloud storage configuration for exposure risks
+Document a cloud incident response plan
+Design a secure network architecture for a cloud-hosted application
+Build a checklist for reviewing cloud security posture
