@@ -1,0 +1,153 @@
+01-llm-engineering-introduction.md
+
+What large language models are
+How LLMs differ from earlier NLP models
+Why LLM engineering is a distinct discipline from model training
+How this repository builds on nlp-engineering and deep-learning-lab
+
+
+02-llm-fundamentals.md
+
+Parameters and model scale
+Training data at scale
+Emergent capabilities concepts
+Why bigger models behave differently from smaller ones
+
+
+03-tokens-and-context-windows.md
+
+What tokens are in practice
+How text is converted into tokens
+Context window limitations
+Why token limits shape application design
+
+
+04-how-llms-generate-text.md
+
+Autoregressive generation revisited
+Sampling strategies
+Temperature and randomness concepts
+Why the same prompt can produce different outputs
+
+
+05-prompt-engineering-fundamentals.md
+
+What a prompt is
+Why prompt wording affects output quality
+Zero-shot, one-shot, and few-shot prompting concepts
+Structuring prompts for reliability
+
+
+06-advanced-prompting-techniques.md
+
+Chain-of-thought prompting concepts
+Role-based prompting
+System vs user prompts
+Iterative prompt refinement
+
+
+07-embeddings-for-llm-applications.md
+
+Revisiting embeddings in the context of LLM applications
+Semantic similarity concepts
+Why embeddings enable search and retrieval
+Embedding models vs generative models
+
+
+08-vector-databases.md
+
+What a vector database stores
+Why traditional databases aren't suited for embeddings
+Similarity search concepts
+Common vector database use cases
+
+
+09-retrieval-augmented-generation.md
+
+What RAG is and why it exists
+Combining retrieval with generation
+Reducing hallucination through grounding
+RAG pipeline structure at a conceptual level
+
+
+10-building-a-rag-system.md
+
+Document ingestion concepts
+Chunking strategies
+Retrieval step design
+Generation step design
+Evaluating a RAG system's accuracy
+
+
+11-fine-tuning-concepts.md
+
+What fine-tuning means for LLMs
+When fine-tuning is appropriate vs prompting
+Full fine-tuning vs parameter-efficient fine-tuning
+Risks of fine-tuning, including overfitting and cost
+
+
+12-parameter-efficient-fine-tuning.md
+
+Why full fine-tuning is often impractical
+LoRA concepts at a high level
+Adapter-based approaches
+Tradeoffs of efficient fine-tuning methods
+
+
+13-local-and-open-source-models.md
+
+Running models locally vs using hosted APIs
+Tradeoffs of local deployment
+Open-source model ecosystems
+Hardware considerations for local inference
+
+
+14-llm-application-frameworks.md
+
+What frameworks like LangChain and LlamaIndex provide
+Chaining prompts and tools together
+Orchestration concepts
+When to use a framework vs building directly on an API
+
+
+15-tool-use-and-function-calling.md
+
+What tool use means for an LLM
+Function calling concepts
+Connecting LLMs to external systems
+Why this pattern enables agent-like behavior
+
+
+16-building-ai-agents.md
+
+What an AI agent is
+Planning and reasoning loops
+Tool selection concepts
+Limitations and failure modes of agents
+
+
+17-evaluating-llm-applications.md
+
+Why evaluating generative systems is harder than classification
+Human evaluation approaches
+Automated evaluation approaches
+Measuring hallucination and reliability
+
+
+18-cost-and-performance-considerations.md
+
+Token-based pricing concepts
+Latency considerations
+Balancing model size against application needs
+Caching and optimization strategies
+
+
+19-llm-engineering-projects.md
+
+Projects:
+Build a document question-answering system using RAG
+Build a local chatbot using an open-source model
+Create an agent that uses external tools
+Fine-tune a small open-source model on a custom dataset
+Document cost, latency, and accuracy tradeoffs for your build
