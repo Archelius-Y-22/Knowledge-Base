@@ -1,0 +1,136 @@
+01-nlp-introduction.md
+
+What natural language processing is
+Why language is difficult for computers to process
+Real-world applications of NLP
+How this repository builds on deep-learning-lab
+
+
+02-text-preprocessing.md
+
+Tokenization concepts
+Lowercasing and normalization
+Removing stop words
+Stemming vs lemmatization
+Why preprocessing choices affect downstream results
+
+
+03-text-representation-basics.md
+
+Bag of words concepts
+Term frequency
+TF-IDF concepts
+Limitations of simple text representations
+
+
+04-word-embeddings.md
+
+What word embeddings are
+Why embeddings capture semantic meaning
+Word2Vec concepts
+GloVe concepts at a high level
+
+
+05-sequence-modeling-for-text.md
+
+Representing text as sequences
+Connection to RNNs and LSTMs from deep-learning-lab
+Challenges of variable-length input
+Padding and truncation concepts
+
+
+06-language-modeling-fundamentals.md
+
+What a language model predicts
+Next-word prediction concepts
+N-gram models as a simple baseline
+Why statistical models were limited
+
+
+07-the-transformer-architecture-for-nlp.md
+
+Revisiting self-attention in the context of language
+Encoder and decoder structures
+Why transformers outperformed RNNs for language tasks
+Positional encoding concepts
+
+
+08-bert-and-encoder-models.md
+
+What BERT is
+Bidirectional context understanding
+Pretraining and fine-tuning concepts
+Common use cases for encoder-only models
+
+
+09-gpt-and-decoder-models.md
+
+What GPT-style models are
+Autoregressive text generation
+Decoder-only architecture concepts
+Why this architecture became dominant for generation tasks
+
+
+10-tokenization-in-modern-nlp.md
+
+Subword tokenization concepts
+Byte pair encoding at a high level
+Why tokenization affects model behavior
+Vocabulary size tradeoffs
+
+
+11-huggingface-transformers-fundamentals.md
+
+What the Hugging Face ecosystem provides
+Loading pretrained models
+Running inference with pretrained models
+Fine-tuning basics using the library
+
+
+12-text-classification-tasks.md
+
+Sentiment analysis concepts
+Spam and abuse detection concepts
+Building a text classifier using pretrained embeddings
+Evaluating classification performance on text
+
+
+13-named-entity-recognition.md
+
+What named entity recognition does
+Common entity types
+Practical applications in information extraction
+Using pretrained NER models
+
+
+14-question-answering-systems.md
+
+Extractive question answering concepts
+How models locate answers within text
+Practical applications of QA systems
+
+
+15-text-generation-and-summarization.md
+
+Abstractive vs extractive summarization
+Text generation concepts
+Controlling generation output
+Common pitfalls in generated text
+
+
+16-evaluating-nlp-models.md
+
+Why standard accuracy metrics often fall short for language tasks
+BLEU and ROUGE concepts at a high level
+Human evaluation considerations
+Choosing metrics for the task at hand
+
+
+17-nlp-engineering-projects.md
+
+Projects:
+Build a sentiment analysis tool
+Build a named entity extraction tool
+Build a text summarizer using a pretrained model
+Fine-tune a small transformer model on a custom dataset
+Document evaluation results and model limitations
