@@ -1,0 +1,134 @@
+01-reinforcement-learning-introduction.md
+
+What reinforcement learning is
+Difference between reinforcement learning and supervised or unsupervised learning
+Real-world applications of reinforcement learning
+How this repository builds on mathematics-for-ai and deep-learning-lab
+
+
+02-agents-and-environments.md
+
+What an agent is
+What an environment is
+The agent-environment interaction loop
+Observations, actions, and rewards
+
+
+03-states-and-actions.md
+
+What a state represents
+Discrete vs continuous action spaces
+State representation choices
+Why the state design affects learning difficulty
+
+
+04-rewards-and-reward-design.md
+
+What a reward signal is
+Why reward design shapes agent behavior
+Sparse vs dense rewards
+Common pitfalls of poorly designed rewards
+
+
+05-the-markov-decision-process.md
+
+What a Markov decision process is
+The Markov property concept
+Transition probabilities
+Why MDPs formalize the reinforcement learning problem
+
+
+06-policies-and-value-functions.md
+
+What a policy is
+Deterministic vs stochastic policies
+What a value function represents
+Relationship between policies and value functions
+
+
+07-exploration-vs-exploitation.md
+
+Why an agent must balance trying new actions and using known ones
+The exploration-exploitation tradeoff explained
+Common exploration strategies at a conceptual level
+Why poor balance leads to suboptimal learning
+
+
+08-dynamic-programming-concepts.md
+
+Why dynamic programming is a foundation for RL theory
+Policy evaluation concepts
+Policy improvement concepts
+Limitations of dynamic programming in practice
+
+
+09-monte-carlo-methods.md
+
+What Monte Carlo methods estimate
+Learning from complete episodes
+Strengths and limitations of Monte Carlo approaches
+
+
+10-temporal-difference-learning.md
+
+What temporal difference learning combines from prior approaches
+Why TD learning updates estimates without waiting for episode completion
+Foundation for more advanced algorithms
+
+
+11-q-learning.md
+
+What Q-learning estimates
+The Q-table concept
+Why Q-learning is considered a foundational RL algorithm
+Limitations of tabular Q-learning
+
+
+12-deep-q-networks.md
+
+Why tabular methods fail in large state spaces
+How neural networks approximate value functions
+Deep Q-Network architecture concepts
+Stability challenges in training DQNs
+
+
+13-policy-gradient-methods.md
+
+Difference between value-based and policy-based methods
+What policy gradient methods optimize directly
+Why policy-based methods suit continuous action spaces
+High-level intuition without heavy derivation
+
+
+14-actor-critic-methods.md
+
+What actor-critic methods combine
+Role of the actor
+Role of the critic
+Why this combination improves training stability
+
+
+15-reinforcement-learning-environments.md
+
+What simulation environments provide for RL research
+Why standardized environments matter for testing algorithms
+Common environment categories
+Building a simple custom environment concept
+
+
+16-challenges-in-reinforcement-learning.md
+
+Sample inefficiency
+Reward hacking concepts
+Sim-to-real transfer challenges
+Why RL remains harder to deploy than supervised learning
+
+
+17-reinforcement-learning-projects.md
+
+Projects:
+Implement Q-learning on a simple grid-world problem
+Train a Deep Q-Network on a classic control task
+Experiment with reward shaping and observe behavior changes
+Build a simple custom environment for an agent to learn in
+Document training results and learning curves
