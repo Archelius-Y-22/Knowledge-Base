@@ -1,0 +1,120 @@
+01-ai-security-introduction.md
+
+Why AI systems introduce security risks beyond traditional software
+Difference between securing AI and securing infrastructure around AI
+Overview of the AI attack surface
+How this repository builds on cybersecurity-foundations and llm-engineering
+
+
+02-ai-threat-landscape.md
+
+Categories of threats specific to AI systems
+Threat actors targeting AI systems
+Why AI security is a fast-evolving area
+Relationship between traditional security threats and AI-specific ones
+
+
+03-prompt-injection.md
+
+What prompt injection is
+Direct prompt injection concepts
+Indirect prompt injection through external content
+Why prompt injection is difficult to fully prevent
+
+
+04-jailbreaking-concepts.md
+
+What jailbreaking means in the context of AI models
+Why models have behavioral guidelines
+How attackers attempt to bypass safety measures
+Why this is a continuous defense challenge rather than a solved problem
+
+
+05-data-poisoning.md
+
+What data poisoning is
+How poisoned training data affects model behavior
+Detecting suspicious training data at a conceptual level
+Why data provenance matters
+
+
+06-model-extraction-and-theft.md
+
+What model extraction attacks attempt to achieve
+Why exposed APIs create extraction risk
+Techniques attackers use to reconstruct model behavior
+Defenses against extraction attempts
+
+
+07-adversarial-examples.md
+
+What an adversarial example is
+Why small input changes can cause large output changes
+Adversarial attacks in image classification as an illustrative case
+Why this reveals fragility in learned representations
+
+
+08-membership-inference-and-privacy-risks.md
+
+What membership inference attacks attempt to determine
+Why models can inadvertently leak information about training data
+Privacy risks specific to models trained on sensitive data
+Relationship to data protection principles
+
+
+09-supply-chain-risks-in-ai-systems.md
+
+Risks from pretrained models of unknown origin
+Risks from third-party datasets
+Dependency risks in AI tooling and libraries
+Why provenance and trust matter throughout the AI supply chain
+
+
+10-securing-ai-apis-and-endpoints.md
+
+Authentication and authorization for AI-serving endpoints
+Rate limiting to prevent abuse
+Input validation before reaching a model
+Output filtering before returning results to users
+
+
+11-output-handling-and-content-safety.md
+
+Why raw model output cannot always be trusted
+Filtering harmful or unintended content
+Handling model output that will be executed or rendered
+Risks of passing model output directly into other systems
+
+
+12-secure-rag-system-design.md
+
+Why retrieval introduces new attack surface
+Risks of untrusted documents in a retrieval pipeline
+Isolating retrieved content from instructions
+Designing RAG systems with injection risks in mind
+
+
+13-monitoring-and-logging-ai-systems.md
+
+Why AI systems need dedicated monitoring beyond uptime
+Logging inputs and outputs responsibly
+Detecting misuse patterns
+Balancing observability with user privacy
+
+
+14-governance-and-responsible-ai.md
+
+Why organizations need AI usage policies
+Human oversight concepts
+Accountability for AI-driven decisions
+Relationship between responsible AI and security practices
+
+
+15-ai-security-projects.md
+
+Projects:
+Test a personal LLM application for prompt injection resistance
+Build input and output filtering for an AI-powered application
+Document a threat model specific to an AI system you have built
+Research and summarize a real-world AI security incident using public information
+Design a secure architecture diagram for a RAG-based application
