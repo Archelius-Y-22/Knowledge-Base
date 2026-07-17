@@ -1,0 +1,154 @@
+01-deep-learning-introduction.md
+
+What deep learning is
+Difference between traditional machine learning and deep learning
+Why deep learning became practical with more data and compute
+Real-world applications of deep learning
+How this repository builds on machine-learning-foundations
+
+
+02-biological-inspiration-and-perceptrons.md
+
+The biological neuron analogy
+What a perceptron is
+Why the analogy has limits
+Historical context of neural network development
+
+
+03-neural-network-architecture.md
+
+Layers: input, hidden, and output
+Neurons and connections
+Weights and biases
+How data flows through a network
+
+
+04-activation-functions.md
+
+Why activation functions are necessary
+Sigmoid function
+ReLU function
+Tanh function
+Choosing activation functions for different layers
+
+
+05-forward-propagation.md
+
+How input data moves through a network
+Calculating outputs layer by layer
+Connection to matrix multiplication from mathematics-for-ai
+Producing a prediction from raw input
+
+
+06-loss-functions.md
+
+What a loss function measures
+Common loss functions for regression
+Common loss functions for classification
+Why the choice of loss function matters
+
+
+07-backpropagation.md
+
+What backpropagation does
+Connection to the chain rule from mathematics-for-ai
+How gradients flow backward through a network
+Why backpropagation makes training possible
+
+
+08-gradient-descent-in-neural-networks.md
+
+Applying gradient descent to network weights
+Learning rate effects
+Batch, mini-batch, and stochastic gradient descent
+Convergence challenges
+
+
+09-training-a-neural-network.md
+
+Epochs and iterations
+Monitoring training and validation loss
+Recognizing overfitting during training
+Early stopping concepts
+
+
+10-regularization-techniques.md
+
+Why regularization is needed
+Dropout concepts
+L1 and L2 regularization
+Balancing model capacity and generalization
+
+
+11-pytorch-fundamentals.md
+
+Why PyTorch is used for this repository
+Tensors and tensor operations
+Building a simple model in PyTorch
+Training loop structure
+
+
+12-convolutional-neural-networks.md
+
+Why CNNs are used for image data
+Convolution operation intuition
+Filters and feature maps
+Pooling layers
+
+
+13-cnn-architectures-in-practice.md
+
+Building a simple CNN
+Training a CNN on image data
+Evaluating image classification performance
+Common CNN design patterns
+
+
+14-recurrent-neural-networks.md
+
+Why RNNs are used for sequential data
+How RNNs process sequences
+Limitations of basic RNNs
+Vanishing gradient problem
+
+
+15-lstm-and-gru.md
+
+Why LSTM was developed
+Gates and memory cells
+GRU as a simplified alternative
+When to use LSTM vs GRU
+
+
+16-attention-mechanisms.md
+
+Why attention was introduced
+The intuition behind attention
+Limitations of RNNs that attention solves
+Connection to transformer architectures
+
+
+17-introduction-to-transformers.md
+
+What a transformer architecture is
+Self-attention concepts
+Why transformers replaced RNNs in many applications
+Foundation for understanding LLMs later
+
+
+18-transfer-learning.md
+
+What transfer learning means
+Using pretrained models
+Fine-tuning concepts
+Why transfer learning saves time and resources
+
+
+19-deep-learning-projects.md
+
+Projects:
+Build a neural network from scratch using only NumPy
+Train an image classifier using a CNN
+Build a text classifier using an RNN or LSTM
+Fine-tune a pretrained model on a custom dataset
+Document architecture decisions and training results
