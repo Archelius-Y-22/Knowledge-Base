@@ -1,0 +1,112 @@
+01-mlops-introduction.md
+
+What MLOps is and why it exists
+Difference between building a model and operating one in production
+How MLOps relates to DevOps principles
+How this repository builds on ai-engineering and machine-learning-foundations
+
+
+02-the-ml-lifecycle-in-production.md
+
+Stages of the production ML lifecycle
+Difference between experimentation and production workflows
+Why reproducibility matters at every stage
+Handoffs between data science and engineering teams
+
+
+03-data-versioning.md
+
+Why datasets need version control
+Tracking changes in training data over time
+Reproducing past results using versioned data
+Common data versioning approaches at a conceptual level
+
+
+04-model-versioning.md
+
+Why models need version control beyond code
+Tracking model artifacts
+Linking models to the data and code that produced them
+Rollback concepts when a new model underperforms
+
+
+05-experiment-tracking.md
+
+Why tracking experiments matters
+Recording hyperparameters and results
+Comparing model runs systematically
+Avoiding lost or unreproducible experiments
+
+
+06-training-pipelines.md
+
+What a training pipeline automates
+Stages of a typical pipeline
+Why manual retraining doesn't scale
+Triggering retraining based on new data
+
+
+07-continuous-integration-for-ml.md
+
+Applying CI principles to machine learning projects
+Testing data quality automatically
+Testing model code automatically
+Catching issues before deployment
+
+
+08-continuous-deployment-for-ml.md
+
+Automating model deployment
+Staged rollout concepts
+Canary deployment concepts for models
+Why deployment automation reduces human error
+
+
+09-model-serving-architectures.md
+
+Batch inference vs real-time inference
+Serving models behind an API
+Scaling model serving under load
+Choosing the right serving pattern for the use case
+
+
+10-monitoring-models-in-production.md
+
+Why a working model can silently degrade over time
+Data drift concepts
+Concept drift concepts
+Performance monitoring beyond initial evaluation metrics
+
+
+11-retraining-strategies.md
+
+Scheduled retraining
+Trigger-based retraining
+Human-in-the-loop review before redeployment
+Risks of automated retraining without oversight
+
+
+12-infrastructure-for-ml-systems.md
+
+Compute considerations for training vs inference
+Storage considerations for large datasets and models
+Why infrastructure choices affect cost and speed
+Cloud vs on-premise tradeoffs at a conceptual level
+
+
+13-container-orchestration-basics.md
+
+Why single containers aren't enough at scale
+Kubernetes concepts at a high level
+Orchestrating model serving across multiple instances
+Resource allocation concepts
+
+
+14-mlops-projects.md
+
+Projects:
+Build a reproducible training pipeline for a simple model
+Set up experiment tracking for multiple model runs
+Automate deployment of a model update
+Implement basic drift monitoring on a deployed model
+Document a full MLOps workflow from data to production
