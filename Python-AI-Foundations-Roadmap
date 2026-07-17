@@ -1,0 +1,107 @@
+01-python-ai-foundations-introduction.md
+
+Why Python is the dominant language for AI and data science
+Difference between general-purpose Python and data-focused Python
+Overview of the tools covered in this repository
+How this repository connects to python-for-security and machine-learning-foundations
+
+
+02-numpy-fundamentals.md
+
+What NumPy is and why it exists
+Arrays vs Python lists
+Array creation concepts
+Why numerical computing needs specialized structures
+
+
+03-numpy-array-operations.md
+
+Indexing and slicing arrays
+Reshaping arrays
+Element-wise operations
+Broadcasting concepts
+Aggregation operations
+
+
+04-numpy-for-linear-algebra.md
+
+Representing vectors and matrices with NumPy
+Matrix multiplication in code
+Practical connection to mathematics-for-ai concepts
+Performance advantages of vectorized operations
+
+
+05-pandas-fundamentals.md
+
+What Pandas is and why it exists
+Series and DataFrame concepts
+Loading data into Pandas
+Basic data inspection
+
+
+06-data-cleaning-with-pandas.md
+
+Handling missing values
+Removing duplicates
+Correcting data types
+Filtering and selecting data
+Why clean data matters for model quality
+
+
+07-data-transformation-with-pandas.md
+
+Grouping data
+Aggregating data
+Merging and joining datasets
+Reshaping data
+Creating new features from existing data
+
+
+08-data-visualization-fundamentals.md
+
+Why visualization matters in data analysis
+Overview of plotting concepts
+Choosing the right chart for the data
+Communicating insights visually
+
+
+09-matplotlib-basics.md
+
+Creating basic plots
+Line charts, bar charts, and histograms
+Customizing plots
+Labeling and readability principles
+
+
+10-exploratory-data-analysis.md
+
+What exploratory data analysis is
+Understanding a dataset before modeling
+Identifying patterns and anomalies
+Summary statistics in practice
+
+
+11-working-with-real-world-datasets.md
+
+Common data sources
+Loading data from files and APIs
+Handling messy real-world data
+Data quality assessment
+
+
+12-feature-engineering-basics.md
+
+What features are in a machine learning context
+Creating meaningful features
+Encoding categorical data
+Scaling and normalization concepts
+
+
+13-python-ai-foundations-projects.md
+
+Projects:
+Clean and analyze a real-world dataset
+Build a data visualization dashboard
+Perform exploratory data analysis on a public dataset
+Engineer features from raw data for a future machine learning model
+Document findings in a structured analysis report
