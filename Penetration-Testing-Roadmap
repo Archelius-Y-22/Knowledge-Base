@@ -1,0 +1,150 @@
+01-penetration-testing-introduction.md
+
+What penetration testing is
+Difference between penetration testing and vulnerability scanning
+Types of penetration tests
+Black box, white box, and gray box testing
+Legal and ethical boundaries
+Authorization and scope agreements
+
+
+02-penetration-testing-methodology.md
+
+Standard testing methodologies
+Phases of a penetration test
+Why structured methodology matters
+Documentation throughout the process
+
+
+03-scoping-and-rules-of-engagement.md
+
+Defining test scope
+Rules of engagement
+What is in bounds and out of bounds
+Communication with stakeholders
+Handling sensitive findings responsibly
+
+
+04-reconnaissance.md
+
+Passive reconnaissance concepts
+Active reconnaissance concepts
+Open-source intelligence gathering
+Information that attackers look for
+Reducing your own exposed footprint
+
+
+05-scanning-and-enumeration.md
+
+Host discovery concepts
+Port scanning concepts
+Service identification
+Enumeration of users, shares, and services
+Mapping the attack surface
+
+
+06-vulnerability-analysis.md
+
+Identifying weaknesses from scan data
+Cross-referencing known vulnerabilities
+Prioritizing findings
+Understanding false positives
+
+
+07-exploitation-concepts.md
+
+What exploitation means
+Matching vulnerabilities to exploits
+Exploitation frameworks at a conceptual level
+Risks of exploitation during testing
+
+
+08-privilege-escalation.md
+
+Vertical privilege escalation
+Horizontal privilege escalation
+Common misconfigurations that enable escalation
+Why escalation matters to impact assessment
+
+
+09-post-exploitation.md
+
+Maintaining access concepts
+Data of interest to attackers
+Lateral movement concepts
+Understanding blast radius
+
+
+10-password-attacks.md
+
+Password guessing concepts
+Credential stuffing concepts
+Password cracking concepts
+Why weak credential policies are exploited
+
+
+11-web-application-testing.md
+
+Testing web apps as part of a pentest
+Mapping application functionality
+Testing authentication and access control
+Connecting back to web-security fundamentals
+
+
+12-network-penetration-testing.md
+
+Testing internal networks
+Testing external perimeter
+Identifying weak network segmentation
+Common network-level findings
+
+
+13-wireless-penetration-testing.md
+
+Testing wireless networks
+Common wireless weaknesses
+Rogue access point concepts
+Wireless attack surface
+
+
+14-social-engineering-testing.md
+
+Testing human factors
+Phishing simulation concepts
+Physical security testing concepts
+Reporting on human-layer risk
+
+
+15-active-directory-testing.md
+
+Why Active Directory is a common target
+Enumeration in AD environments
+Common AD misconfigurations
+Privilege escalation paths in AD
+
+
+16-tools-of-the-trade.md
+
+Categories of penetration testing tools
+Reconnaissance tools
+Scanning tools
+Exploitation frameworks
+Password attack tools
+
+
+17-reporting-and-documentation.md
+
+Why reporting is the most important deliverable
+Structuring a penetration test report
+Communicating risk to technical and non-technical audiences
+Remediation recommendations
+
+
+18-penetration-testing-projects.md
+
+Projects:
+Complete structured labs on legal practice platforms
+Write a full sample penetration test report
+Document a personal testing methodology checklist
+Practice reconnaissance on your own owned infrastructure
+Build a home lab to test enumeration and exploitation concepts safely
