@@ -1,0 +1,161 @@
+01-python-introduction.md
+What Python is and why it is widely used in software development, automation, data science, and cybersecurity
+Python history, design philosophy, and the principles behind readable and maintainable code
+Understanding interpreted languages and how Python executes programs
+Python use cases in cybersecurity, including automation, analysis, scripting, and tool development
+Differences between Python and lower-level programming languages
+Understanding where Python fits in a cybersecurity professional's toolkit
+
+02-python-environment-and-tools.md
+Installing and managing Python environments
+Understanding Python versions and compatibility
+Virtual environments and dependency isolation
+Python package management concepts
+Code editors and development environments
+Writing clean and organized Python projects
+Managing Python projects professionally
+
+03-python-syntax-and-core-concepts.md
+Python program structure
+Writing readable Python code
+Variables and naming conventions
+Comments and documentation
+Understanding Python indentation and code blocks
+Basic operators and expressions
+Understanding how Python interprets code
+
+04-data-types-and-data-structures.md
+Understanding Python's built-in data types
+Working with strings and text manipulation
+Numbers and mathematical operations
+Lists and collections of data
+Tuples and immutable data
+Dictionaries and key-value data
+Sets and unique data collections
+Choosing the correct data structure for different problems
+
+05-control-flow-and-logic.md
+Decision-making in programs
+Conditional statements
+Logical operations
+Loop concepts
+Iterating through data
+Controlling program execution
+Creating efficient program logic
+
+06-functions-and-modular-programming.md
+Understanding functions and why they improve code organization
+Creating reusable code components
+Function parameters and returned values
+Organizing programs into multiple files
+Importing and using modules
+Writing maintainable and scalable scripts
+
+07-object-oriented-programming.md
+Understanding object-oriented programming concepts
+Classes and objects
+Attributes and methods
+Encapsulation
+Inheritance
+Polymorphism
+Designing larger Python applications
+
+08-file-handling-and-data-processing.md
+Reading and writing files
+Processing text files
+Working with structured data
+JSON data handling
+CSV data processing
+Log file analysis
+Extracting useful information from large datasets
+
+09-error-handling-and-debugging.md
+Understanding program failures
+Exception handling concepts
+Creating reliable applications
+Debugging Python programs
+Finding and fixing logical errors
+Writing safer automation scripts
+
+10-python-standard-library.md
+Understanding Python's built-in capabilities
+Working with operating system interactions
+Managing files and directories
+Handling dates and times
+Regular expressions
+Data serialization
+Randomness and security considerations
+
+11-working-with-apis.md
+Understanding APIs and how applications communicate
+HTTP communication using Python
+Sending and receiving data
+Working with authentication systems
+Processing API responses
+Automating tasks using external services
+Security considerations when using APIs
+
+12-network-programming.md
+Understanding network communication with Python
+Client-server architecture
+Socket programming concepts
+Creating network-based applications
+Understanding ports and connections
+Network automation concepts
+Building basic networking tools
+
+13-databases-and-data-storage.md
+Understanding database concepts
+Storing and retrieving information
+Relational databases
+SQL concepts
+Connecting Python applications with databases
+Managing security-sensitive data
+Secure database practices
+
+14-python-for-linux-automation.md
+Using Python to automate Linux administration tasks
+Managing files and system resources
+Automating repetitive operations
+Creating system monitoring scripts
+Managing configurations
+Building administration utilities
+
+15-python-for-security-automation.md
+Using Python for cybersecurity workflows
+Automating security checks
+Processing security reports
+Analyzing logs
+Automating reconnaissance tasks
+Creating security monitoring scripts
+Building defensive security utilities
+
+16-security-libraries-and-frameworks.md
+Understanding Python libraries used in cybersecurity
+Libraries for network communication
+Libraries for packet analysis
+Libraries for cryptography
+Libraries for data analysis
+Using external security frameworks responsibly
+Understanding security-focused Python ecosystems
+
+17-building-security-tools.md
+Projects and concepts:
+
+Creating a port scanning tool
+Building a log analysis system
+Creating a password security checker
+Developing a network information collector
+Building automation tools for security workflows
+Designing tools with security and reliability in mind
+
+18-python-projects.md
+Projects:
+
+Linux system monitoring tool
+Automated backup manager
+Network scanner for personal labs
+Security log analyzer
+Vulnerability reporting tool
+File integrity monitoring system
+Cybersecurity automation toolkit
