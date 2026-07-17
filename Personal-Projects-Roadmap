@@ -1,0 +1,86 @@
+01-personal-projects-introduction.md
+
+Purpose of this repository as a portfolio of original, applied work
+Difference between this repo and security-labs — original builds vs guided practice
+How projects here demonstrate applied understanding across Linux, security, and AI
+Setting a standard for documentation quality on every project
+
+
+02-project-planning-and-scoping.md
+
+Why defining scope before starting matters
+Breaking a project into achievable milestones
+Choosing tools appropriate to the problem, not just the newest ones
+Setting a definition of "done" before starting
+
+
+03-linux-tools-projects.md
+
+Ideas: a system health dashboard, a backup automation tool, a user management utility
+What each project should demonstrate about Linux administration skill
+Documentation expectations: purpose, design decisions, usage instructions
+
+
+04-automation-and-scripting-projects.md
+
+Ideas: a log analyzer, a scheduled maintenance script, a configuration backup tool
+What each project should demonstrate about Bash and Python automation skill
+Documentation expectations: problem solved, script structure, edge cases handled
+
+
+05-networking-projects.md
+
+Ideas: a network scanner, a traffic analysis tool, a simple network mapper
+What each project should demonstrate about networking fundamentals
+Documentation expectations: protocols involved, tools used, sample output
+
+
+06-security-tool-projects.md
+
+Ideas: a password strength auditor, a file integrity monitor, a simple vulnerability checker
+What each project should demonstrate about applied cybersecurity knowledge
+Documentation expectations: threat addressed, design tradeoffs, limitations
+
+
+07-web-security-projects.md
+
+Ideas: a deliberately vulnerable practice application, a request inspection tool, a basic vulnerability scanner
+What each project should demonstrate about web-security concepts
+Documentation expectations: vulnerability classes covered, safe testing boundaries
+
+
+08-ai-tool-projects.md
+
+Ideas: a document question-answering assistant, a local chatbot, a data analysis assistant
+What each project should demonstrate about the AI track repositories
+Documentation expectations: model choice, architecture, evaluation results
+
+
+09-ai-security-projects.md
+
+Ideas: a prompt injection test suite, an AI application input filter, a secure RAG demo
+What each project should demonstrate about ai-security concepts
+Documentation expectations: threat model, mitigations implemented, residual risks
+
+
+10-cross-domain-projects.md
+
+Ideas that intentionally combine tracks: a secure AI-powered log analyzer, a hardened self-hosted AI assistant, an automated security report generator using an LLM
+Why combining Linux, security, and AI skill is your stated long-term differentiator
+Documentation expectations: how each domain contributes to the final build
+
+
+11-project-documentation-standards.md
+
+Standard README structure to use across every project
+What to include: problem statement, architecture, setup instructions, limitations, lessons learned
+Why consistent documentation makes a portfolio easier to review
+Screenshots, diagrams, or sample output as supporting evidence
+
+
+12-personal-projects-index.md
+
+A running index of every project with a one-line description
+Status tracking: planned, in progress, completed
+Tags by domain: Linux, networking, security, AI, cross-domain
+Links back to the specific roadmap file each project reinforces
