@@ -1,0 +1,159 @@
+01-shell-and-bash-introduction.md
+
+What a shell is
+History of Unix shells
+Difference between terminal, shell, and command interpreter
+Why Bash became the standard Linux shell
+Role of scripting in system administration
+Importance of automation in Linux environments
+
+
+02-bash-environment.md
+
+Shell initialization process
+User environment concepts
+Configuration files
+Interactive and non-interactive shells
+Shell customization concepts
+Environment variables and their purpose
+
+
+03-variables-and-data.md
+
+Variable concepts
+Storing and manipulating data
+Environment variables
+Local and global variables
+String manipulation
+Data handling inside scripts
+
+
+04-input-output-and-redirection.md
+
+Standard input concepts
+Standard output concepts
+Standard error concepts
+Data streams
+Command pipelines
+Redirecting program output
+Connecting multiple programs together
+
+
+05-conditions-and-logic.md
+
+Decision-making inside scripts
+Conditional execution
+Logical operators
+Comparing values
+Creating intelligent scripts
+Handling different execution paths
+
+
+06-loops-and-iteration.md
+
+Repeating operations automatically
+Loop structures
+Iterating through files
+Processing lists of data
+Automating repetitive tasks
+
+
+07-functions-and-modularity.md
+
+Organizing scripts
+Creating reusable code
+Function design
+Script structure
+Writing maintainable automation
+
+
+08-text-processing.md
+
+Importance of text processing in Linux
+Working with logs
+Extracting information from files
+Transforming and filtering data
+Processing large amounts of text
+
+
+09-regular-expressions.md
+
+Pattern matching concepts
+Searching text efficiently
+Validating information
+Using patterns for automation
+Advanced text filtering concepts
+
+
+10-file-processing.md
+
+Working with files in scripts
+File searching concepts
+File manipulation
+Batch operations
+Automating file management
+
+
+11-error-handling.md
+
+Script reliability
+Handling failures
+Understanding errors
+Exit codes
+Writing safer scripts
+
+
+12-script-debugging.md
+
+Finding script problems
+Debugging methodology
+Testing scripts
+Improving script reliability
+Troubleshooting automation failures
+
+
+13-automation-concepts.md
+
+Importance of automation
+Reducing repetitive administration tasks
+Scheduled automation
+Script-based system management
+Infrastructure automation concepts
+
+
+14-system-administration-scripts.md
+
+Linux administration automation
+User management scripts
+Backup automation
+System monitoring scripts
+Maintenance automation
+
+
+15-security-scripts.md
+
+Security automation concepts
+Log analysis automation
+System auditing scripts
+Security checking scripts
+Automating security tasks
+
+
+16-advanced-bash.md
+
+Advanced Bash concepts
+Complex script design
+Script optimization
+Professional scripting practices
+Writing large automation systems
+
+
+17-bash-projects.md
+
+Projects:
+Automated backup system
+Linux log analyzer
+System health monitoring tool
+User management automation
+Security auditing script
+Server maintenance automation
