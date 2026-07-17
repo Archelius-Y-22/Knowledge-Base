@@ -1,0 +1,163 @@
+01-machine-learning-introduction.md
+
+What machine learning is
+Difference between traditional programming and machine learning
+Types of machine learning: supervised, unsupervised, reinforcement
+Real-world applications of machine learning
+How this repository builds on mathematics-for-ai and python-ai-foundations
+
+
+02-the-machine-learning-workflow.md
+
+Problem definition
+Data collection
+Data preparation
+Model training
+Model evaluation
+Deployment concepts
+Why workflow discipline matters
+
+
+03-training-and-testing-data.md
+
+Why data is split into training and testing sets
+Validation sets and their purpose
+Data leakage concepts
+Why evaluation must happen on unseen data
+
+
+04-supervised-learning-fundamentals.md
+
+What supervised learning means
+Labeled data concepts
+Classification vs regression
+How a model learns from examples
+
+
+05-linear-regression.md
+
+What linear regression predicts
+The concept of a best-fit line
+Cost functions in regression
+Connection to gradient descent from mathematics-for-ai
+
+
+06-logistic-regression.md
+
+What logistic regression predicts
+Difference between regression and classification outputs
+Decision boundaries
+Probability outputs and thresholds
+
+
+07-decision-trees.md
+
+How decision trees make predictions
+Splitting criteria concepts
+Overfitting risk in trees
+Interpretability advantages
+
+
+08-ensemble-methods.md
+
+What ensemble learning means
+Random forests
+Boosting concepts
+Why combining models often improves performance
+
+
+09-support-vector-machines.md
+
+What SVMs do
+Margin and decision boundary concepts
+Kernel concepts at a high level
+When SVMs are useful
+
+
+10-k-nearest-neighbors.md
+
+How KNN makes predictions
+Distance metrics
+Choosing the right number of neighbors
+Strengths and limitations of KNN
+
+
+11-unsupervised-learning-fundamentals.md
+
+What unsupervised learning means
+Difference from supervised learning
+Common use cases
+Why labeled data isn't always available
+
+
+12-clustering-and-k-means.md
+
+What clustering does
+K-means algorithm intuition
+Choosing the number of clusters
+Practical applications of clustering
+
+
+13-dimensionality-reduction.md
+
+Why high-dimensional data is challenging
+Principal component analysis intuition
+Connection to eigenvalues and eigenvectors
+Practical benefits of reducing dimensions
+
+
+14-model-evaluation-metrics.md
+
+Accuracy and its limitations
+Precision and recall
+F1 score
+ROC-AUC concepts
+Choosing the right metric for the problem
+
+
+15-overfitting-and-underfitting.md
+
+What overfitting means
+What underfitting means
+Bias-variance tradeoff
+Techniques to address both problems
+
+
+16-cross-validation.md
+
+Why a single train-test split can be misleading
+K-fold cross-validation concepts
+Why cross-validation improves reliability of evaluation
+
+
+17-feature-selection-and-importance.md
+
+Identifying which features matter most
+Reducing irrelevant or redundant features
+Impact of feature quality on model performance
+
+
+18-hyperparameter-tuning.md
+
+What hyperparameters are
+Difference between parameters and hyperparameters
+Grid search and random search concepts
+Why tuning affects model performance
+
+
+19-scikit-learn-in-practice.md
+
+Overview of the scikit-learn library
+Building a full model pipeline
+Training, evaluating, and saving models
+Practical workflow from data to trained model
+
+
+20-machine-learning-projects.md
+
+Projects:
+Build a regression model to predict a continuous value
+Build a classification model to detect spam or malicious activity
+Cluster a dataset with no labels
+Compare multiple models on the same dataset
+Document a full end-to-end machine learning workflow
