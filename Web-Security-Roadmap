@@ -1,0 +1,172 @@
+01-web-fundamentals.md
+
+What the web is and how it works
+Client-server architecture
+Browsers and rendering
+URLs and web addressing
+Static vs dynamic websites
+Why the web is a major attack surface
+
+
+02-how-websites-work.md
+
+Frontend and backend concepts
+Web servers
+Application servers
+Databases behind websites
+Request and response cycle
+Where vulnerabilities typically appear
+
+
+03-http-in-depth.md
+
+HTTP methods
+HTTP headers
+Status codes
+Request structure
+Response structure
+Statelessness of HTTP
+
+
+04-cookies-and-sessions.md
+
+What cookies are
+Session management concepts
+State in a stateless protocol
+Session tokens
+Session hijacking concepts
+
+
+05-authentication-in-web-applications.md
+
+Login mechanisms
+Password handling concepts
+Session-based authentication
+Token-based authentication
+JWT concepts
+Common authentication flaws
+
+
+06-web-application-architecture.md
+
+Client-server data flow
+APIs and web applications
+REST concepts
+Frontend-backend communication
+Modern web app structures
+
+
+07-browser-security-model.md
+
+Same-Origin Policy
+Cross-Origin Resource Sharing
+Browser sandboxing
+Content Security Policy concepts
+Why the browser enforces trust boundaries
+
+
+08-injection-vulnerabilities.md
+
+What injection means
+SQL injection concepts
+Command injection concepts
+How untrusted input becomes dangerous
+Why input validation matters
+
+
+09-cross-site-scripting.md
+
+What XSS is
+Stored XSS
+Reflected XSS
+DOM-based XSS
+Impact of XSS attacks
+
+
+10-cross-site-request-forgery.md
+
+What CSRF is
+How CSRF exploits trust
+Session riding concepts
+CSRF protections
+
+
+11-server-side-request-forgery.md
+
+What SSRF is
+How attackers abuse server-side requests
+Internal network exposure risks
+SSRF impact scenarios
+
+
+12-broken-authentication.md
+
+Weak authentication design
+Credential stuffing concepts
+Session fixation
+Multi-factor authentication bypass concepts
+
+
+13-broken-access-control.md
+
+What access control failures look like
+Insecure direct object references
+Privilege escalation in web apps
+Horizontal vs vertical access issues
+
+
+14-security-misconfiguration.md
+
+Default configurations
+Unnecessary features enabled
+Verbose error messages
+Missing security headers
+
+
+15-file-upload-vulnerabilities.md
+
+Risks of accepting file uploads
+Malicious file execution concepts
+Validation and restriction concepts
+Secure file handling principles
+
+
+16-api-security.md
+
+API-specific risks
+Authentication in APIs
+Rate limiting concepts
+Data exposure through APIs
+
+
+17-web-application-firewalls.md
+
+What a WAF does
+Detection approaches
+Limitations of WAFs
+WAF bypass concepts at a high level
+
+
+18-secure-coding-practices.md
+
+Input validation principles
+Output encoding
+Secure session handling
+Defense in depth for web applications
+
+
+19-web-security-testing-tools.md
+
+Purpose of security testing tools
+Proxy-based testing concepts
+Manual vs automated testing
+Responsible testing practices
+
+
+20-web-security-projects.md
+
+Projects:
+Set up a personal lab environment for practice
+Document common vulnerability classes with examples
+Build a checklist for reviewing a web app's security
+Practice on legal training platforms and document findings
