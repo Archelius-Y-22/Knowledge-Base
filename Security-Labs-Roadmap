@@ -1,0 +1,102 @@
+01-security-labs-introduction.md
+
+Purpose of this repository as a practical companion to the theory-focused repos
+Difference between reading about security and practicing it hands-on
+Setting expectations for consistent, documented practice
+How this repository ties together penetration-testing, web-security, and reverse-engineering
+
+
+02-setting-up-a-home-lab.md
+
+Why an isolated lab environment matters
+Virtual machine concepts for lab building
+Network isolation for safe practice
+Snapshot and rollback concepts for experimentation
+
+
+03-lab-safety-and-legal-boundaries.md
+
+Why practicing only on owned or authorized systems matters
+Legal boundaries of hands-on security practice
+Isolating lab environments from production or personal networks
+Responsible handling of tools and payloads during practice
+
+
+04-overthewire-wargames.md
+
+What OverTheWire offers as a beginner-friendly practice platform
+Documenting solutions and reasoning, not just answers
+Building foundational command-line and exploitation intuition
+Tracking progress across wargame levels
+
+
+05-tryhackme-walkthroughs.md
+
+What TryHackMe offers for structured, guided learning
+Documenting room walkthroughs in your own words
+Connecting TryHackMe rooms back to concepts from penetration-testing
+Building a personal reference from completed rooms
+
+
+06-hackthebox-writeups.md
+
+What Hack The Box offers for more independent practice
+Difference in difficulty and structure compared to TryHackMe
+Writing structured writeups after retired machines
+Documenting methodology, not just the final exploit
+
+
+07-portswigger-web-security-labs.md
+
+What the PortSwigger Web Security Academy covers
+Connecting labs directly back to topics in web-security
+Documenting vulnerability classes as you complete each lab
+Building a personal web vulnerability reference
+
+
+08-ctf-fundamentals.md
+
+What a capture-the-flag competition is
+Common CTF categories: web, crypto, forensics, reverse engineering, pwn
+Team vs individual participation concepts
+Why CTFs build creative problem-solving skills
+
+
+09-ctf-writeups.md
+
+Structure for documenting a CTF challenge writeup
+Recording the problem, approach, and solution
+Why writeups are valuable even for unsolved challenges
+Building a public portfolio of CTF work
+
+
+10-building-vulnerable-lab-applications.md
+
+Why building intentionally vulnerable applications deepens understanding
+Recreating known vulnerability classes in a controlled setting
+Testing your own applications with your own tools
+Connecting this practice back to secure-coding-practices
+
+
+11-network-lab-exercises.md
+
+Setting up a small practice network
+Practicing enumeration and scanning in a safe environment
+Documenting findings as if writing a real assessment
+Connecting exercises back to penetration-testing methodology
+
+
+12-tracking-progress-and-skill-growth.md
+
+Why consistent documentation matters more than sporadic intensity
+Structuring a personal progress log
+Identifying weak areas through practice patterns
+Setting practice goals aligned with the broader roadmap
+
+
+13-security-labs-index.md
+
+A running index linking every completed lab, room, and writeup
+Tags by category: web, network, binary, crypto, forensics
+Difficulty tracking
+Cross-references back to the theory repos each lab reinforced
